@@ -180,7 +180,7 @@ public class MineSweeperFX extends Application {
                                hasImg[z][w] = !hasImg[z][w];
                                mineField.markTile(z, w);
                             }
-                                
+                            refresh();    
                         }
                     }
                 }
